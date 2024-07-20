@@ -79,8 +79,9 @@
     document.querySelector('#display').value = currentDisplay;
     ">/</button>
 
-    <button class="button" onclick="
-     currentDisplay = currentDisplay + '=';
+    <button class="button" onclick="       //yha pa main calculator ka part h
+    let result = eval(currentDisplay);
+    currentDisplay = result;
     document.querySelector('#display').value = currentDisplay;
     ">=</button>
 
