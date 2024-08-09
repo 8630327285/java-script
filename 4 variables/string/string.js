@@ -1,5 +1,5 @@
-let name = "Nitin";
-console.log(name.length)
+let n = "Nitin";
+console.log(n.length)
 
 
 // string define a number
@@ -35,3 +35,23 @@ console.log(str)
 // \carriage return
 let message = "Hello, World!\rGoodbye, World!";
 console.log(message);
+
+
+
+
+
+
+
+let name = "Nitin   "
+
+console.log(name.length);
+
+console.log(name.replace("Nitin", "Ritik"))
+console.log(name.toUpperCase())
+console.log(name.toLowerCase());
+console.log(name.slice(2,3))
+
+let Name = name.trim();
+console.log(Name);
+
+
